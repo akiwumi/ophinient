@@ -1,5 +1,5 @@
 import { useState, useRef, useEffect } from "react";
-import { fetchFromApi } from "../api/client";
+import { supabase } from "../lib/supabase";
 
 const INITIAL = { name: "", email: "", subject: "", message: "" };
 
@@ -77,17 +77,23 @@ export default function ContactForm() {
     setSubmitting(true);
     setServerError("");
 
-    try {
-      await fetchFromApi("/contact", {
-        method: "POST",
-        body: JSON.stringify(values),
-      });
+    const { error } = await supabase.from("contact_messages").insert([
+      {
+        name: values.name.trim(),
+        email: values.email.trim().toLowerCase(),
+        subject: values.subject?.trim() || null,
+        message: values.message.trim(),
+      },
+    ]);
+
+    setSubmitting(false);
+
+    if (error) {
+      setServerError(error.message || "Something went wrong. Please try again.");
+    } else {
       setSuccess(true);
       setValues(INITIAL);
-    } catch (err) {
-      setServerError(err.message || "Something went wrong. Please try again.");
-    } finally {
-      setSubmitting(false);
+    }
     }
   };
 
