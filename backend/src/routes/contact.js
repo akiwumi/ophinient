@@ -1,6 +1,7 @@
 const express = require("express");
 const router = express.Router();
 const { verifyEmailDomain } = require("../services/emailVerifier");
+const { sendEmail } = require("../services/emailService");
 
 function validateFields({ name, email, subject, message }) {
   const errors = [];
@@ -68,6 +69,16 @@ router.post("/", async (req, res) => {
     console.log(
       `[Contact] ${stored ? "Stored" : "Received"}: ${name} <${email}> — ${subject || "(no subject)"}`
     );
+
+    try {
+      await sendEmail({
+        to: process.env.CONTACT_EMAIL || "akiwumi@gmail.com",
+        subject: subject ? `Contact: ${subject}` : "New contact form submission",
+        html: `<p><strong>From:</strong> ${name} &lt;${email}&gt;</p><p>${message}</p>`,
+      });
+    } catch (emailErr) {
+      console.error("[Contact] Email notification failed:", emailErr);
+    }
 
     res.json({
       success: true,
