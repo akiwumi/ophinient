@@ -94,7 +94,6 @@ export default function ContactForm() {
       setSuccess(true);
       setValues(INITIAL);
     }
-    }
   };
 
   return (
