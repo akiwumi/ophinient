@@ -1,0 +1,125 @@
+[
+  {
+    "id": "1",
+    "slug": "the-last-horizon",
+    "title": "The Last Horizon",
+    "thumbnail": "https://images.unsplash.com/photo-1536440136628-849c177e76a1?w=800&q=80",
+    "featuredImage": "https://images.unsplash.com/photo-1536440136628-849c177e76a1?w=1600&q=80",
+    "logline": "A sweeping epic that follows a retired sea captain on his final voyage across uncharted waters, confronting ghosts of the past and the vast unknown.",
+    "synopsis": "Set against the backdrop of the 1960s Mediterranean, The Last Horizon tells the story of Captain Alistair Drake, a man haunted by a catastrophic decision made decades ago. When a mysterious letter arrives from a port he thought lost to time, he embarks on one final journey aboard the vessel that defined his life. Along the way, he encounters old allies, dangerous rivals, and a young stowaway who forces him to reckon with the legacy he'll leave behind. A meditation on guilt, redemption, and the sea's indifference to both.",
+    "director": "Helena Voss",
+    "cast": ["Michael Ashford", "Isabelle Dumont", "Ravi Chandar", "Celia Thornton"],
+    "crew": [
+      { "role": "Cinematographer", "name": "Jean-Luc Ferrand" },
+      { "role": "Editor", "name": "Marion Blake" },
+      { "role": "Composer", "name": "Nikolai Sorokin" },
+      { "role": "Production Designer", "name": "Tomas Gruber" }
+    ],
+    "year": 2025,
+    "status": "post-production",
+    "gallery": [
+      "https://images.unsplash.com/photo-1500375592092-40eb2168fd21?w=800&q=80",
+      "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&q=80",
+      "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=800&q=80"
+    ],
+    "sortOrder": 1
+  },
+  {
+    "id": "2",
+    "slug": "beneath-the-signal",
+    "title": "Beneath the Signal",
+    "thumbnail": "https://images.unsplash.com/photo-1478720568477-152d9b164e26?w=800&q=80",
+    "featuredImage": "https://images.unsplash.com/photo-1478720568477-152d9b164e26?w=1600&q=80",
+    "logline": "In an underground research facility, a team of scientists slowly loses contact with the surface — and with their own sense of reality.",
+    "synopsis": "Beneath the Signal unfolds in a decommissioned Cold War bunker repurposed as a cutting-edge signals intelligence lab. Dr. Lena Morse and her team are tasked with decoding a mysterious radio frequency emanating from deep within the Earth. As the signal grows stronger, communication with the outside world fails. Paranoia sets in. Team members begin seeing things that aren't there — or are they? This psychological thriller blurs the line between scientific discovery and collective madness, building to a climax that redefines what it means to listen.",
+    "director": "Damien Croft",
+    "cast": ["Adriana Voss", "Marcus Bellingham", "Yuki Tanaka", "Eliot Greaves"],
+    "crew": [
+      { "role": "Cinematographer", "name": "Petra Winkler" },
+      { "role": "Editor", "name": "Sam Okoro" },
+      { "role": "Composer", "name": "Astrid Holm" },
+      { "role": "Sound Designer", "name": "Felix Brandt" }
+    ],
+    "year": 2024,
+    "status": "released",
+    "gallery": [
+      "https://images.unsplash.com/photo-1485846234645-a62644f84728?w=800&q=80",
+      "https://images.unsplash.com/photo-1440404653325-ab127d49abc1?w=800&q=80",
+      "https://images.unsplash.com/photo-1594909122845-11baa439b7bf?w=800&q=80"
+    ],
+    "sortOrder": 2
+  },
+  {
+    "id": "3",
+    "slug": "the-gilded-cage",
+    "title": "The Gilded Cage",
+    "thumbnail": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?w=800&q=80",
+    "featuredImage": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?w=1600&q=80",
+    "logline": "A rising jazz singer in 1962 Harlem discovers that fame comes with invisible chains when she's drawn into the orbit of a powerful record mogul.",
+    "synopsis": "Velvet Monroe has the voice of a generation. When legendary producer Solomon King offers her a recording contract, it seems like the break she's been waiting for. But Solomon's empire is built on secrets and silence. As Velvet climbs the charts, she uncovers a web of exploitation stretching back decades. The Gilded Cage is a lush, music-drenched drama about artistry, autonomy, and the courage to sing your own song — even when the powerful would rather you stayed quiet.",
+    "director": "Amara Osei",
+    "cast": ["Zara Kingsley", "Idris Waller", "June Delacroix", "Raymond St. Claire"],
+    "crew": [
+      { "role": "Cinematographer", "name": "Lucien Moreau" },
+      { "role": "Editor", "name": "Christine Dao" },
+      { "role": "Composer", "name": "Marcus Holloway" },
+      { "role": "Costume Designer", "name": "Yvette Soulange" }
+    ],
+    "year": 2026,
+    "status": "production",
+    "gallery": [
+      "https://images.unsplash.com/photo-1514320291840-2e0a9bf2a9ae?w=800&q=80",
+      "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?w=800&q=80",
+      "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=800&q=80"
+    ],
+    "sortOrder": 3
+  },
+  {
+    "id": "4",
+    "slug": "winter-of-wolves",
+    "title": "Winter of Wolves",
+    "thumbnail": "https://images.unsplash.com/photo-1440404653325-ab127d49abc1?w=800&q=80",
+    "featuredImage": "https://images.unsplash.com/photo-1440404653325-ab127d49abc1?w=1600&q=80",
+    "logline": "A reclusive wildlife photographer in the Norwegian wilderness becomes entangled in a deadly confrontation between poachers and the wolves she's sworn to protect.",
+    "synopsis": "Ingrid Solberg has spent three years living alone in a remote cabin in Nordland, documenting the last wild wolf pack in the region. When she discovers evidence of an organised poaching ring operating in the protected territory, she faces an impossible choice: stay hidden and document the truth, or intervene and risk everything. Winter of Wolves is a taut, visually stunning thriller set against breathtaking Arctic landscapes, exploring themes of isolation, conviction, and humanity's fraught relationship with the natural world.",
+    "director": "Erik Lindqvist",
+    "cast": ["Sigrid Hagen", "Karl Edvardsen", "Thomas Bratt", "Maren Solheim"],
+    "crew": [
+      { "role": "Cinematographer", "name": "Anders Bjørnstad" },
+      { "role": "Editor", "name": "Katrine Vold" },
+      { "role": "Composer", "name": "Ólafur Kristjánsson" },
+      { "role": "Production Designer", "name": "Liv Henriksen" }
+    ],
+    "year": 2026,
+    "status": "pre-production",
+    "gallery": [
+      "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80",
+      "https://images.unsplash.com/photo-1519681393784-d120267933ba?w=800&q=80",
+      "https://images.unsplash.com/photo-1477346611705-65d1883cee1e?w=800&q=80"
+    ],
+    "sortOrder": 4
+  },
+  {
+    "id": "5",
+    "slug": "echo-chamber",
+    "title": "Echo Chamber",
+    "thumbnail": "https://images.unsplash.com/photo-1485846234645-a62644f84728?w=800&q=80",
+    "featuredImage": "https://images.unsplash.com/photo-1485846234645-a62644f84728?w=1600&q=80",
+    "logline": "A disgraced political journalist discovers that the conspiracy she debunked years ago may have been real all along.",
+    "synopsis": "After a career-ending retraction, journalist Mara Chen retreats from public life. Five years later, a source from her past resurfaces with evidence that the story she was forced to kill was not only accurate — it was just the beginning. Echo Chamber is a propulsive, morally complex thriller about truth in the age of disinformation, the price of credibility, and what happens when the people who silence the press become the story themselves.",
+    "director": "David Park",
+    "cast": ["Naomi Xu", "Richard Hale", "Sophie Abara", "James Whitfield"],
+    "crew": [
+      { "role": "Cinematographer", "name": "Rosa Delgado" },
+      { "role": "Editor", "name": "Ben Shapiro-Levin" },
+      { "role": "Composer", "name": "Kenji Watanabe" }
+    ],
+    "year": 2027,
+    "status": "development",
+    "gallery": [
+      "https://images.unsplash.com/photo-1524712245354-2c4e5e7121c0?w=800&q=80",
+      "https://images.unsplash.com/photo-1504711434969-e33886168d6c?w=800&q=80"
+    ],
+    "sortOrder": 5
+  }
+]

@@ -1,0 +1,10 @@
+/* ============================================================
+   APP-LEVEL OVERRIDES
+   Scoped styles for the root application shell.
+   Design system tokens are available via index.css import.
+   ============================================================ */
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+}

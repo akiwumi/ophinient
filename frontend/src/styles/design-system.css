@@ -1,0 +1,15 @@
+/* ============================================================
+   OPHINI DESIGN SYSTEM — Entry Point
+   Import this single file to load the full design system.
+
+   Layer order:
+   1. tokens      — CSS custom properties (colours, type scale, spacing)
+   2. typography   — Font imports, heading hierarchy, text utilities
+   3. base         — Resets, scrollbar, layout primitives
+   4. components   — Buttons, cards, nav, forms, patterns
+   ============================================================ */
+
+@import './tokens.css';
+@import './typography.css';
+@import './base.css';
+@import './components.css';
