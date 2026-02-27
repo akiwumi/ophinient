@@ -79,10 +79,10 @@ export default function ContactForm() {
 
     const { error } = await supabase.from("contact_messages").insert([
       {
-        name: values.name.trim(),
-        email: values.email.trim().toLowerCase(),
+        full_name: values.name.trim(),
+        user_email: values.email.trim().toLowerCase(),
         subject: values.subject?.trim() || null,
-        message: values.message.trim(),
+        content: values.message.trim(),
       },
     ]);
 
